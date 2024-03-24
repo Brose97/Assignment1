@@ -256,7 +256,9 @@ p{
     text-align: left;
     color: yellow;
 }
-
+blockquote>q{
+    background-color: whitesmoke;
+}
 @media (max-width: 900px){
     body{
         width: 100%;
