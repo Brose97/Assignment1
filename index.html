@@ -5,44 +5,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Wayne,Gretzky,Hockey,Canada,Ice Hockey,Sports">
         <meta name="Description" content="This is a site created to tell you about the life and career of Wayne Gretzky"/>
+        <meta name="author" content="Evan Belrose">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
-        <title> Wayne Gretzky | Biography</title>
+        <title> Wayne Gretzky | Home</title>
     </head>
     <body>
-        <header>Wayne Gretzky</header>
+        <header>Wayne "The Great One" Gretzky</header>
+        <nav>
+            <ul>
+                <li id="home"><a href=index.html>Home</a></li>
+                <li id="contact"><a href=contact.html>Contact</a></li>
+            </ul>
+        </nav>
         <main>
 <!-- Section 1 -->
             <section class="main-section"> 
                 <h2>Biography</h2>
-                <blockquote cite="https://en.wikipedia.org/wiki/Wayne_Gretzky" id="bio">
-                    <i>
-                        <b>
-                            <p>
-                                <!-- biography here -->
-                                Wayne Douglas Gretzky CC (/ˈɡrɛtski/ GRET-skee; born January 26, 1961) is a Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999. Nicknamed "the Great One",[1] he has been called the greatest ice hockey player ever by many sportswriters, players, The Hockey News, and the NHL itself,[2] based on extensive surveys of hockey writers, ex-players, general managers and coaches.[3] Gretzky is the leading career goal scorer, assist producer and point scorer in NHL history,[4] and has more career assists than any other player has total points. He is the only NHL player to total over 200 points in one season, a feat he accomplished four times. In addition, Gretzky tallied over 100 points in 15 professional seasons, 13 of them consecutive. At the time of his retirement in 1999, he held 61 NHL records: 40 regular season records, 15 playoff records, and 6 All-Star records.[2] 
-                            </p>
-                        </b>
-                    </i>
-                </blockquote>
+                    <div>
+                        <blockquote cite="https://en.wikipedia.org/wiki/Wayne_Gretzky" id="bio">
+                            <i>
+                                <b>
+                                    <p>
+                                        <!-- biography here -->
+                                        Wayne Douglas Gretzky CC (/ˈɡrɛtski/ GRET-skee; born January 26, 1961) is a Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999. Nicknamed "the Great One",[1] he has been called the greatest ice hockey player ever by many sportswriters, players, The Hockey News, and the NHL itself,[2] based on extensive surveys of hockey writers, ex-players, general managers and coaches.[3] Gretzky is the leading career goal scorer, assist producer and point scorer in NHL history,[4] and has more career assists than any other player has total points. He is the only NHL player to total over 200 points in one season, a feat he accomplished four times. In addition, Gretzky tallied over 100 points in 15 professional seasons, 13 of them consecutive. At the time of his retirement in 1999, he held 61 NHL records: 40 regular season records, 15 playoff records, and 6 All-Star records.[2] 
+                                    </p>
+                                </b>
+                            </i>
+                        </blockquote>
+                        <!-- Picture of Wayne-->
+                        <figure class="main-section-figure" id="relative-path-image">
+                            <img src=".\pictures\Wayne Gretzky 2.jpg" alt="Wayne Gretzky in his equipment and on the ice" style="width:100%">
+                            <figcaption>Gretzky playing as a New York Ranger</figcaption>
+                        </figure>
+                    </div>
             </section>
-<!-- Section 2 -->
-            <section class="main-section">
-                <h2>Images</h2>
+
+<!-- Section 2 (removed according to instructions)-->
+           <!-- <section class="main-section">-->
+                <!--<h2>Images</h2>-->
                 <!-- first image -->
-                <figure class="main-section-figure" id="absolute-path-image">
+                <!-- absolute path image removed with comment
+                    <figure class="main-section-figure" id="absolute-path-image">
                     <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg/440px-Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg alt="Wayne Gretzky" style="width:100%">
                     <figcaption>Gretzky in June 2019</figcaption>
-                </figure>
-                <!-- second image -->
-                <figure class="main-section-figure" id="relative-path-image">
-                    <img src=".\pictures\Wayne Gretzky 2.jpg" alt="Wayne Gretzky in his equipment and on the ice" style="width:100%">
-                    <figcaption>Gretzky playing as a New York Ranger</figcaption>
-                </figure> 
-            </section>
+                </figure>-->
+                <!-- second image --> 
+            <!--</section>-->
+
 <!-- Section 3 -->
             <section class="main-section">
-                <h2>Quotes</h2>
+                <h2 id="quote">Quote</h2>
                 <blockquote cite="https://www.azquotes.com/author/5901-Wayne_Gretzky" id="quote">
                     <q>
                         <cite>
@@ -67,6 +80,44 @@
                     allowfullscreen>
                 </iframe>
         </main>
+        <!-- aside with FAQ and external links-->
+        <aside>
+            <h3>Wayne Gretzky FAQs</h3>
+            <!-- table is created-->
+            <table id="table">
+                <!-- first table row-->
+                <tr>
+                  <th><b>Question</b></th>
+                  <th><b>Answer</b></th>
+                </tr>
+                <!-- second table row-->
+                <tr>
+                  <td>How many teams did Gretzky play on in the NHL?</td>
+                  <td>
+                    Edmonton Oilers (1978-1988)<br>
+                    Los Angeles Kings (1988-1996)<br>
+                    St. Louis Blues (1996)<br>
+                    New York Rangers (1996-1999)<br>
+                </td>
+                </tr>
+                <!-- third table row-->
+                <tr>
+                  <td>How many Stanley cups did Gretzky win?</td>
+                  <td>4, all with the Edmonton Oilers</td>
+                </tr>
+                <tr>
+                    <td>What is the name of Wayne Gretzky's brother who also played in the NHL?</td>
+                    <td>Brent Gretzky</td>
+                </tr>
+              </table>
+              <!-- external links list-->
+            <h3>More Gretzky Links!</h3>
+            <ul>
+                <li id="list"><a href="https://en.wikipedia.org/wiki/Wayne_Gretzky" target="_blank">Wayne Gretzky's Wikipedia page</a></li>
+                <li id="list"><a href="https://www.biography.com/athlete/wayne-gretzky" target="_blank">Wayne Gretzky's Biography.com page</a></li>
+                <li id="list"><a href="https://www.espn.com/nhl/player/stats/_/id/4128/wayne-gretzky" target="_blank">Wayne Gretzky's Career stats on ESPN.com</a></li>
+            </ul>
+        </aside>
 <!--footer begins-->
         <footer>
             <p>

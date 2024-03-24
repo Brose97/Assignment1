@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Wayne,Gretzky,Hockey,Canada,Ice Hockey,Sports">
+        <meta name="Description" content="This page is for contacting the website owner!"/>
+        <meta name="author" content="Evan Belrose">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title> Wayne Gretzky | Contact</title>
+    </head>
+    <body>
+        <header>Wayne "The Great One" Gretzky</header>
+        <nav>
+            <ul>
+                <li id="home"><a href=index.html>Home</a></li>
+                <li id="contact"><a href=contact.html>Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form id="form" action="submitInfo">
+                <label for="firstName">First name:</label><br>
+                <input type="text" required placeholder="First Name" id="firstName" name="firstName"><br>
+                <label for="lastName">Last name:</label><br>
+                <input type="text" required placeholder="Last Name" id="lastName" name="lastName"><br>
+                <p>What is your favourite Car brand from the following options?</p>
+                <label for="carVW">Volkswagon</label>
+                <input type="radio" autofocus id="carFav" name="carFav" value="Volkswagon"><br>
+                <label for="carFord">Ford</label>
+                <input type="radio" id="carFav" name="carFav" value="Ford"><br>
+                <label for="carToy">Toyota</label>
+                <input type="radio" id="carFav" name="carFav" value="Toyota">
+                <br>
+                <label for="dateFav">What is your favourite date?</label>
+                <input type="date" selected id="dateFav" name="dateFav">
+                <br>
+                <label for="fruit">Choose your favourite fruit:</label>
+                <br>
+                <select name="fruitFav" id="fruitFav">
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Grapes" selected>Grapes</option>
+                    <option value="Strawberry">Strawberry</option>
+                </select>
+                <br>
+                <label for="email">Please enter your email:</label>
+                <input type="email" required id="email" name="email">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <aside>
+            <h3>Wayne Gretzky FAQs</h3>
+            <table id="table">
+                <tr>
+                  <th><b>Question</b></th>
+                  <th><b>Answer</b></th>
+                </tr>
+                <tr>
+                  <td>How many teams did Gretzky play on in the NHL?</td>
+                  <td>
+                    Edmonton Oilers (1978-1988)<br>
+                    Los Angeles Kings (1988-1996)<br>
+                    St. Louis Blues (1996)<br>
+                    New York Rangers (1996-1999)<br>
+                </td>
+                </tr>
+                <tr>
+                  <td>How many Stanley cups did Gretzky win?</td>
+                  <td>4, all with the Edmonton Oilers</td>
+                </tr>
+                <tr>
+                    <td>What is the name of Wayne Gretzky's brother who also played in the NHL?</td>
+                    <td>Brent Gretzky</td>
+                </tr>
+              </table>
+            <h3>More Gretzky Links!</h3>
+                <ul>
+                    <li id="list"><a href="https://en.wikipedia.org/wiki/Wayne_Gretzky" target="_blank">Wayne Gretzky's Wikipedia page</a></li>
+                    <li id="list"><a href="https://www.biography.com/athlete/wayne-gretzky" target="_blank">Wayne Gretzky's Biography.com page</a></li>
+                    <li id="list"><a href="https://www.espn.com/nhl/player/stats/_/id/4128/wayne-gretzky" target="_blank">Wayne Gretzky's Career stats on ESPN.com</a></li>
+                </ul>
+        </aside>
+<!--footer begins-->
+        <footer>
+            <p>
+                © Evan Belrose 2024
+            </p>
+        
+        </footer>
+    </body>
+</html>
