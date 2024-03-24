@@ -71,6 +71,7 @@ section figure {
     margin: 10px auto ;
 }
 blockquote q {
+    background-color: whitesmoke;
     padding: 1rem;
     margin: 1rem;
     display: block;
